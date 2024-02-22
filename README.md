@@ -32,7 +32,7 @@ Analyzing the data to determine stationarity and seasonality through visualizati
 The ARIMA model predictions (in blue) closely follow the trend of the test data, although it seems to underfit during certain peaks and troughs, suggesting potential for further optimization of the model parameters.
 
 <div align="center">
-  <img src="images/image_1.png" alt="Image 1">
+  <img src="images/image_1.png" width="600" height="500" alt="Image 1">
 </div>
 
 **2. ETS Models:** 
@@ -42,7 +42,7 @@ Compared three variations of the Exponential Smoothing State Space model:
 - Additive ETS (in green) shows a balanced approach between the multiplicative and damped models, aligning closely with the test data.
 
 <div align="center">
-  <img src="images/image_2.png" alt="Image 2">
+  <img src="images/image_2.png" width="600" height="500" alt="Image 2">
 </div>
   
 **3. Theta Model:** 
@@ -50,7 +50,7 @@ The Theta model (in blue) offers a surprisingly good fit with the overall patter
 
 
 <div align="center">
-  <img src="images/image_3.png" alt="Image 3">
+  <img src="images/image_3.png" width="600" height="500" alt="Image 3">
 </div>
 
 
